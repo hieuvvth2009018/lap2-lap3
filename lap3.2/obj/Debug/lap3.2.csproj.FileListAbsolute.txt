@@ -1,0 +1,2 @@
+C:\Users\pc\RiderProjects\lap2valap3\lap3.2\obj\Debug\lap3.2.csprojAssemblyReference.cache
+C:\Users\pc\RiderProjects\lap2valap3\lap3.2\obj\Debug\lap3.2.csproj.CoreCompileInputs.cache
