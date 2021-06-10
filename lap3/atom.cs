@@ -6,7 +6,7 @@ namespace lap3
     public class atom
     {
         public int number { get; set; }
-        public string symblo { get; set; }
+        public String symblo { get; set; }
         public String fluname { get; set; }
         public Double weigh { get; set; }
         private List<atom> _listAtionic = new List<atom>();
@@ -14,14 +14,21 @@ namespace lap3
         public bool accept()
         {
             Console.WriteLine("please enter ation number: ");
-            this.number = Convert.ToInt32(Console.ReadLine());
+            var nummber = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("please enter symbol: ");
-            this.symblo = Console.ReadLine();
+            var symbol = Console.ReadLine();
             Console.WriteLine("please enter full name ");
-            this.fluname = Console.ReadLine();
+            var fullname = Console.ReadLine();
             Console.WriteLine("please enter weghi: ");
-            this.weigh = Convert.ToDouble(Console.ReadLine());
-            _listAtionic.Add(this);
+            var wheigh = Convert.ToDouble(Console.ReadLine());
+            _listAtionic.Add(new atom()
+            {
+                number = number,
+                symblo = symblo,
+                fluname = fluname,
+                weigh = weigh,
+            });
+
             return true;
         }
 
