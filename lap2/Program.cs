@@ -7,47 +7,39 @@ namespace lap2
     {
         public static void Main(string[] args)
         {
-            String s = Console.ReadLine();
-            int a = int.Parse(s.Substring(0, 1));
-            int b = int.Parse(s.Substring(1, 1));
-            int c = int.Parse(s.Substring(2, 1));
-            int d = int.Parse(s.Substring(3, 1));
-            int e = int.Parse(s.Substring(4, 1));
-            int f = int.Parse(s.Substring(5, 1));
-            int g = int.Parse(s.Substring(6, 1));
-            int h = int.Parse(s.Substring(7, 1));
-            int k = int.Parse(s.Substring(8, 1));
-            String u = $"{b * 2}{d * 2}{f * 2}{h * 2}";
-            int z = a + c + e + g;
-            int sun = 0;
-            int q = int.Parse(u);
-            while (q !=0)
+            var sin = "193456787";
+            if (sin.Length != 9)
             {
-                sun = sun + q % 10;
-                q /= 10;
+                Console.WriteLine("sin phải là chuỗi 9 chữ số");
+                return;
+            }
+            var splittedSin = sin.ToCharArray();
+            var sinInNumber = new int[9];
+            for (int i = 0; i < splittedSin.Length; i++)
+            {
+                sinInNumber[i] = int.Parse(splittedSin[i].ToString());
             }
 
-            int total = sun + 2;
-            Console.WriteLine(total % 10);
-            int x = 0;
-            for (int i = 0; i < 10; i++)
+            var tongSoHangChan = 0;
+            var tongSoHangLe = 0;
+            for (int i = 0; i < sinInNumber.Length - 1; i++)
             {
-                if (total % 10 +i==10)
+                if (i%2 == 0)
                 {
-                    x = i;
-                }                
+                    tongSoHangLe += sinInNumber[i];
+                }
+                else
+                {
+                    var temp = (sinInNumber[i] * 2).ToString().ToCharArray();
+                    for (int j = 0; j < temp.Length; j++)
+                    {
+                        tongSoHangChan += Convert.ToInt32(temp[j].ToString());
+                    }
+                }
             }
-            Console.WriteLine(x);
-            if (x==k)
-            {
-                Console.WriteLine("đã duoc");
-            }
-            else
-            {
-                Console.WriteLine("không được");
-            }
+
+            Console.WriteLine(tongSoHangLe);
+            Console.WriteLine(tongSoHangChan);
+        }
         }
     }
-
-}
-

@@ -7,20 +7,30 @@ namespace lap3
     {
         public static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.UTF8;
-            Console.WriteLine(  );
-            atom atom = new atom();
-            while (true)
+            var atoms = new atom[10];
+            Console.WriteLine("Atomic Information");
+            Console.WriteLine("==================");
+            var count = 0;
+            for (int i = 0; i < 10; i++)
             {
-                atom.accept();
-                Console.WriteLine("chọn 1 để tiếp tục ,chọn 2 để dừng ");
-                int choice = int.Parse(Console.ReadLine());
-                if (choice!=1)
+                var atom = new atom();
+                var result = atom.accept();
+                if (!result || atom.number == 0)
                 {
                     break;
                 }
+
+                atoms[i] = atom;
+                count++;
             }
-            atom.Display();
-        }
+
+            Console.WriteLine("No Sym Name Weight");
+            Console.WriteLine("------------------------------------");
+            for (int i = 0; i < count; i++)
+            {
+                atoms[i].Display();
+            }
         }
     }
+}
+    
