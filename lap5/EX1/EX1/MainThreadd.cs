@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Text;
 using Lab1.BaiLab5;
+using lab5.ex2;
 
 namespace DefaultNamespace
 {
@@ -17,6 +19,8 @@ namespace DefaultNamespace
                 Console.WriteLine("----------------------------------");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 Order order = new Order();
+                
+                
                 switch (choice)
                 {
                     case 1:
@@ -39,5 +43,46 @@ namespace DefaultNamespace
         }
     }
 }
-            
-    
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+     /*Console.OutputEncoding = Encoding.UTF8;
+
+     Console.WriteLine("vui lòng nhập tên");
+     var name = Console.ReadLine();
+     Console.WriteLine("vui lòng nhập salary");
+    var salary = double.Parse(Console.ReadLine());
+    Console.WriteLine("vui lòng nhập bonus");
+     var bonus = double.Parse(Console.ReadLine());
+     var seniorLecture = new Exception.SeniorLecture
+    {
+         name = name,
+         Salary = salary,
+         Bonus = bonus
+     };
+
+     try
+     {
+         CheckAmount(seniorLecture);
+     }
+     catch (Exception.AmountException e)
+     {
+         Console.WriteLine(e);
+         throw;
+     }
+
+     public static void CheckAmount(Exception.SeniorLecture seniorLecture)
+     {
+         if (seniorLecture.Salary < 60000)
+         {
+             throw new Exception.AmountException(
+                 $"mức lương của giảng viên {seniorLecture.Name} tối thiểu phải từ 60000");
+         }
+         else if (seniorLecture.Bonus > 10000)
+         {
+             throw new Exception.AmountException()(
+                 $"mức thưởng của giảng viên {seniorLecture.Name} tối đa không quá 10000");
+         }
+         else
+         {
+             Console.WriteLine("Okie");
+         }
+     }*/

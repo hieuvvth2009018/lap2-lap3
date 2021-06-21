@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lap4", "lap4\lap4.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lap5", "lap5\lap5.csproj", "{01A7D8B6-4D3D-4040-9E17-97E5A350E4DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventAndDelegate", "EventAndDelegate\EventAndDelegate.csproj", "{7641E857-47D0-446E-B5B1-9925064E80C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{01A7D8B6-4D3D-4040-9E17-97E5A350E4DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01A7D8B6-4D3D-4040-9E17-97E5A350E4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01A7D8B6-4D3D-4040-9E17-97E5A350E4DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7641E857-47D0-446E-B5B1-9925064E80C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7641E857-47D0-446E-B5B1-9925064E80C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7641E857-47D0-446E-B5B1-9925064E80C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7641E857-47D0-446E-B5B1-9925064E80C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

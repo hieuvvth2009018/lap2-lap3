@@ -24,5 +24,9 @@ namespace Lab1.BaiLab5
             Name = Console.ReadLine();
             Console.WriteLine($"ban da chon tap hoa:{Name}");
         }
+public void ord_be()
+{
+    Customer customer = new Customer();
+}
     }
 }
