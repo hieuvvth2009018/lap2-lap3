@@ -4,11 +4,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{7641E857-47D0-446E-B5B1-9925064E80C3}</ProjectGuid>
+        <ProjectGuid>{67D4D288-F56A-4949-82B7-59D5177B5F51}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>EventAndDelegate</RootNamespace>
-        <AssemblyName>EventAndDelegate</AssemblyName>
+        <RootNamespace>lap6</RootNamespace>
+        <AssemblyName>lap6</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
@@ -38,11 +38,12 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Cooler.cs" />
+        <Compile Include="Heater.cs" />
         <Compile Include="Program.cs" />
+        <Compile Include="Program2.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="EventAndDelegate" />
+        <Compile Include="Thermostat.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
