@@ -1,0 +1,6 @@
+C:\Users\pc\RiderProjects\EventAndDelegate\phương trình bậc 2\bin\Debug\phương_trình_bậc_2.exe
+C:\Users\pc\RiderProjects\EventAndDelegate\phương trình bậc 2\bin\Debug\phương_trình_bậc_2.pdb
+C:\Users\pc\RiderProjects\EventAndDelegate\phương trình bậc 2\obj\Debug\phương trình bậc 2.csprojAssemblyReference.cache
+C:\Users\pc\RiderProjects\EventAndDelegate\phương trình bậc 2\obj\Debug\phương trình bậc 2.csproj.CoreCompileInputs.cache
+C:\Users\pc\RiderProjects\EventAndDelegate\phương trình bậc 2\obj\Debug\phương_trình_bậc_2.exe
+C:\Users\pc\RiderProjects\EventAndDelegate\phương trình bậc 2\obj\Debug\phương_trình_bậc_2.pdb

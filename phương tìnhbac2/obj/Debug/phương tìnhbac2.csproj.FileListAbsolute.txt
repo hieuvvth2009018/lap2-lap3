@@ -1,0 +1,6 @@
+C:\Users\pc\RiderProjects\EventAndDelegate\phương tìnhbac2\bin\Debug\phương_tìnhbac2.exe
+C:\Users\pc\RiderProjects\EventAndDelegate\phương tìnhbac2\bin\Debug\phương_tìnhbac2.pdb
+C:\Users\pc\RiderProjects\EventAndDelegate\phương tìnhbac2\obj\Debug\phương tìnhbac2.csprojAssemblyReference.cache
+C:\Users\pc\RiderProjects\EventAndDelegate\phương tìnhbac2\obj\Debug\phương tìnhbac2.csproj.CoreCompileInputs.cache
+C:\Users\pc\RiderProjects\EventAndDelegate\phương tìnhbac2\obj\Debug\phương_tìnhbac2.exe
+C:\Users\pc\RiderProjects\EventAndDelegate\phương tìnhbac2\obj\Debug\phương_tìnhbac2.pdb
