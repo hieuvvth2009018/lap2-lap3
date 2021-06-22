@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lap6", "lap6\lap6.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GIẢI BẤT PHƯƠNG TRÌNH", "GIẢI BẤT PHƯƠNG TRÌNH\GIẢI BẤT PHƯƠNG TRÌNH.csproj", "{5E59B7DC-29D9-47D8-AA91-C8139DD8BA31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lap 7", "lap 7\lap 7.csproj", "{4A08797C-0B3A-481A-AA3C-4B6522463C39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{5E59B7DC-29D9-47D8-AA91-C8139DD8BA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E59B7DC-29D9-47D8-AA91-C8139DD8BA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E59B7DC-29D9-47D8-AA91-C8139DD8BA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A08797C-0B3A-481A-AA3C-4B6522463C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A08797C-0B3A-481A-AA3C-4B6522463C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A08797C-0B3A-481A-AA3C-4B6522463C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A08797C-0B3A-481A-AA3C-4B6522463C39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
